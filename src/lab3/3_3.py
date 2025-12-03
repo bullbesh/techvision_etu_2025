@@ -7,7 +7,7 @@ import numpy as np
 
 #Открытие чб картинки на 7 секунд
 img = cv2.imread(
-    r"D:\pythonprograms\techvision\techvision_etu_2025\src\lab3\images\5.png", # путь до изображения
+    r"D:\pythonprograms\techvision\techvision_etu_2025\src\lab3\images\5.png",
     flags=cv2.IMREAD_COLOR # параметр(ы) чтения
 )
 #Создание окна для отображения:
