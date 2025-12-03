@@ -9,15 +9,15 @@ import numpy as np
 
 #Открытие чб картинки на 7 секунд
 img1 = cv2.imread(
-    r"C:\Users\Blonda\Desktop\tz\3\1.jpg", # путь до изображения
+    r"D:\pythonprograms\techvision\techvision_etu_2025\src\lab3\images\1.jpg", # путь до изображения
     flags=cv2.IMREAD_REDUCED_GRAYSCALE_4 # параметр(ы) чтения
 )
 img2 = cv2.imread(
-    r"C:\Users\Blonda\Desktop\tz\3\2.jpg", # путь до изображения
+    r"D:\pythonprograms\techvision\techvision_etu_2025\src\lab3\images\2.jpg", # путь до изображения
     flags=cv2.IMREAD_REDUCED_GRAYSCALE_4 # параметр(ы) чтения
 )
 img3 = cv2.imread(
-    r"C:\Users\Blonda\Desktop\tz\3\3.jpg", # путь до изображения
+    r"D:\pythonprograms\techvision\techvision_etu_2025\src\lab3\images\3.jpg", # путь до изображения
     flags=cv2.WINDOW_AUTOSIZE # параметр(ы) чтения
 )
 #Создание окна для отображения:
@@ -105,7 +105,8 @@ key = cv2.waitKey(
     2000 # время ожидания нажатия
 )
 cv2.destroyAllWindows()
-#--------------------------------------------------------------------
+
+
 #Создание окна для отображения:
 cv2.namedWindow(
     "chb3", # имя окна
